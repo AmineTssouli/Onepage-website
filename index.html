@@ -1,0 +1,103 @@
+<HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $('#'+div).offset().top-100
+ },'slow');
+}
+</script>
+
+</head>
+<body>
+
+    
+<header>
+    <li onclick="scrollto('home');" id="site_name"><a href="#" ><img  id="logo" src="./logo1.png" alt="frontpage"></a>&nbsp;IIT21S</li>
+    <li onclick="scrollto('home');">HOME</li>
+    <li onclick="scrollto('blog');">BLOG</li>
+    <li onclick="scrollto('about');">ABOUT</li>
+    <li onclick="scrollto('contact');">CONTACT</li>
+</header>
+
+
+ <div class="container">
+
+
+<div id="home">
+ <h1>Website for school purposes</h1>
+ <p>Nothing really fancy but it will get the job done I suppose</p>
+ <br><br>
+ <blockquote><i>“Creating success is our expertise.” </i>
+     </blockquote><cite><span>by John Francis Ravida Sernadilla</span></cite>
+</div>
+
+<div id="blog">
+<table id="customers">
+
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Gender</th>
+        <th>Citizenship</th>
+    </tr>
+    <tr>
+        <td>Amine</td>
+        <td>Tssouli</td>
+        <td>Male</td>
+        <td>Moroccan</td>
+     
+    </tr>
+    <tr>
+        <td>Katja</td>
+        <td>Martínez</td>
+        <td>Female</td>
+        <td>Argentina</td>
+    </tr>
+    <tr>
+        <td>Peter</td>
+        <td>Franzén</td>
+        <td>Male</td>
+        <td>Finnish</td>
+    </tr>
+    <tr>
+        <td>Nicole</td>
+        <td>Kidman</td>
+        <td>Female</td>
+        <td>American</td>
+    </tr>
+</table>
+</div>
+<div id="about">
+    <H2>In this page I used  HTML, CSS And little JQuery.</br></br>Now you can build simple and beautiful website quickly.</h2>
+    <p>this is nothing hard, just playing around with the style until you get the result desired.</p>
+    <p>I used jquery only for the scrolling since it's one page website. </p>
+    <p>the other stuff, only basic <caption>HTML & CSS</caption>. </p>
+   </div>
+
+
+<div id="contact">
+<h1>If you don't want to miss any updates <br><br> feel free to sign up to our newsletters </h1>
+<br><br>
+<div class="section_form">
+    <form action="#" method="post">
+        <input type="email" placeholder="your e-mail" name="email" required>
+        <input type="submit" value="SEND">
+    </form>
+
+</div>
+</div>
+</div>
+
+    <footer>
+        <p>Copyright &copy; 2021 LAB-Ammattikorkeakoulu.</p>
+    </footer>
+
+
+</body>
+</html>
