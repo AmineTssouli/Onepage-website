@@ -48,6 +48,7 @@ header li
  color:#499ae6;
  font-weight:bold;
  cursor:pointer;
+ position: relative;
 }
 header #site_name
 {
@@ -147,9 +148,11 @@ footer p {
 #logo{
 
     display:inline-block;
-    width: 30px;
-    height: auto;
+    width: 35px;
+    height: 25px;
     border-radius: 50%;
+    bottom: 0px;
+    left:0px;
     
 }
 a {
