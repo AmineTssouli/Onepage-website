@@ -29,7 +29,6 @@ header
 {
  width:100%;
  margin:0px auto;
-
  text-align:center;
  height:70px;
  line-height:70px;
@@ -131,7 +130,8 @@ footer {
     height:100px;
 	left: 0;
 	bottom: 0;
- 
+    right: 0;
+    padding: 10px;
     line-height: 70px;
     background-color:499ae6;
 	text-align: center;
