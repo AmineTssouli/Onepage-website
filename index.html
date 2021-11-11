@@ -10,11 +10,19 @@
 
     function scrollto(div)
     {
+        black= "yes";
     $('html,body').animate(
     {
     scrollTop: $('#'+div).offset().top-100
     },'slow');
     }
+   function changetheme()
+   {
+     var Element = document.body;
+     Element.classList.toggle("darkmode");
+
+   }
+
     </script>
 <title>IIT21S One Page Website</title>
 </head>
@@ -27,6 +35,8 @@
     <li onclick="scrollto('blog');">BLOG</li>
     <li onclick="scrollto('about');">ABOUT</li>
     <li onclick="scrollto('contact');">CONTACT</li>
+    <li onclick="changetheme();" class="switch"><div class="sun"></div><div class="flicker"></div><div class="moon"></div></li>
+
 </header>
 
 
